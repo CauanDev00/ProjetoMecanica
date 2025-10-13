@@ -6,13 +6,14 @@ Trata-se de uma página web estática que simula um catálogo de produtos e serv
 ⸻
 
 📋 Objetivos do Projeto
+
 	•	Praticar a estruturação de páginas utilizando HTML puro.
 	•	Compreender o uso de tags semânticas.
 	•	Criar uma página estática com organização de conteúdo e layout básico.
 
 ⸻
 
-⚙️ Funcionalidades
+⚙️ Funcionalidades:
 
 ✅ Visualização de um catálogo de itens.
 ✅ Apresentação de valores de produtos.
