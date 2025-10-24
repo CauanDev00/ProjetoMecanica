@@ -1,0 +1,76 @@
+nav{
+    background-color: #FFB522; 
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+nav ul{ 
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    font-size: 20px;
+    animation:backwards;
+}
+
+nav a:hover{
+    color: #131212;
+    background-color: rgba(19, 18, 18, 0.1);
+    transform: translateY(-2px);
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    text-align: center;
+    font-family: "Montserrat ExtraBold";
+    letter-spacing: 2px;
+}
+
+.contato{
+    background-color: #ffb522e3; 
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.titulo{
+    color:  #FFB522;
+}
+
+h2 {
+    text-align: left;
+}
+
+section{
+    text-align: left;
+    margin: 20px;
+}
+
+.responsiva{
+    width: 900px;
+    height: 900spx;
+}
+
+        
+li {
+    margin: left;
+}
+
+
