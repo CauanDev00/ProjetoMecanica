@@ -12,7 +12,7 @@ nav{
 nav ul{ 
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 100px;
 }
 
 nav a{
@@ -21,12 +21,14 @@ nav a{
     transition: 1s;
     font-size: 20px;
     animation:backwards;
+    position: relative;   /*Thais */
 }
 
 nav a:hover{
     color: white;
     background-color: rgba(228, 224, 224, 0.1);
-    transform: translateY(-2px);
+    transform: translateY(-4px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /*Thais*/
 }
 
 body{
@@ -38,7 +40,7 @@ body{
 }
 
 .contato{
-    background-color: #1f1e1e17; 
+    background-color: #1f1e1ebe; 
     color: white;
     border: none;
     padding: 12px 24px;
@@ -55,6 +57,7 @@ body{
 
 h2 {
     text-align: left;
+    animation: slideInFromLeft 1s ease-out; /*Thais*/
 }
 
 section{
@@ -63,13 +66,13 @@ section{
 }
 
 .responsiva{
-    width: 900px;
-    height: 900spx;
+    width: 100%;
+    max-width: 1000px;
+    transition: all 0.5s ease;
 }
 
         
 li {
     margin: left;
 }
-
 
