@@ -1,3 +1,7 @@
+.titulo{
+    color:  #FFB522;
+}
+
 nav{
     color: #FFB522;
     border: none;
@@ -12,7 +16,7 @@ nav{
 nav ul{ 
     list-style: none;
     display: flex;
-    gap: 100px;
+    gap: 20px;
 }
 
 nav a{
@@ -39,6 +43,17 @@ body{
     letter-spacing: 2px;
 }
 
+.responsiva{
+    width: 100%;
+    max-width: 1000px;
+    transition: all 0.5s ease;
+}
+
+section{
+    text-align: left;
+    margin: 20px;
+}
+
 .contato{
     background-color: #1f1e1ebe; 
     color: white;
@@ -50,29 +65,3 @@ body{
     transition: all 0.3s ease;
     text-align: center;
 }
-
-.titulo{
-    color:  #FFB522;
-}
-
-h2 {
-    text-align: left;
-    animation: slideInFromLeft 1s ease-out; /*Thais*/
-}
-
-section{
-    text-align: left;
-    margin: 20px;
-}
-
-.responsiva{
-    width: 100%;
-    max-width: 1000px;
-    transition: all 0.5s ease;
-}
-
-        
-li {
-    margin: left;
-}
-
