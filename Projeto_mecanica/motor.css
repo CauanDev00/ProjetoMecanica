@@ -1,0 +1,130 @@
+/*leonardo (esse codigo deixa a pagina com animação)*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*leonardo (body do index)*/
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat ExtraBold";
+    letter-spacing: 2px;
+}
+
+h1, h2, h3 {
+    color: #FFB522;
+    margin-top: 20px;
+    animation: fadeIn 1.2s ease;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 1.6em;
+    color: #eaeaea;
+    animation: fadeIn 1.5s ease;
+}
+
+ul {
+    list-style-type: circle;
+    text-align: left;
+    max-width: 600px;
+    margin: 10px auto;
+    padding-left: 20px;
+    animation: fadeIn 1.5s ease;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: fadeIn 1.3s ease;
+}
+/*leonardo (esse codigo foi passado pelo professor para dar efeito a imagem)*/
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(255, 181, 34, 0.4);
+}
+
+/*leonardo - codigo para o botão(faça seu orçamento) */
+nav a {
+    display: inline-block;
+    background-color: transparent;
+    color: #FFB522;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    border: 1px solid #FFB522;
+    margin-top: 10px;
+    animation: fadeIn 1.6s ease;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #FFB522;
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(255, 181, 34, 0.4);
+}
+
+section {
+    margin: 20px;
+    text-align: left;
+}
+
+footer {
+    background-color: #1f1e1ebe;
+    padding: 15px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    animation: fadeIn 2s ease;
+}
+/*leonardo - responsividade (Esse código faz com que meu site se adapte em telas menores)*/
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+}
