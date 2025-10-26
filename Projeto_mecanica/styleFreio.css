@@ -1,0 +1,138 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+
+}
+
+body{
+    margin: 30px;
+    color: #FDA500;
+    background-color: #222222;
+    
+}
+
+h1{
+    font-size: 30px;
+    margin: 15px;
+}
+
+.texto1{
+    font-size: 20px;
+}
+
+a{
+    transition: 1s;
+    font-size: 20px;
+    color: #FDA500;
+    align-items: center;
+    margin: 0px 60px 0px 60px;
+    text-decoration: none;
+}
+
+a:hover{
+    box-shadow: 3px 3px 5px #000000;
+    color: #ffffff;
+    font-size: 30px;
+    transition: 1.9s;
+}
+
+.titoloCard{
+    color: white;
+    font-size: 25px;
+}
+
+.card1 ul li{
+    margin-bottom: 1px;
+    font-size: 20px;
+    list-style: none;
+}
+
+li, samp{
+    font-size: 25px;
+}
+
+.card2 ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.cards{
+   padding: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card1{
+    transition: 1s;
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #FDA500;
+}
+
+.card1:hover{
+    box-shadow: 3px 3px 5px #000000;
+    transition: 1s;
+    background-color: #000000;
+}
+
+.textoCard1{
+    color: white;
+    margin: 6px 50px 0px 0px;
+    
+}
+
+.card2{
+    transition: 1s;
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #FDA500;
+}
+
+.card2:hover{
+    box-shadow: 3px 3px 5px #000000;
+    transition: 1.5s;
+    background-color: #000000;
+}
+
+.textoCard2{
+    color: white;
+    margin: 60px 50px 0px 0px; 
+}
+
+h3{
+    font-size: 30px;
+}
+
+.contato{
+    margin: 0% 30% 0% 37%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.bnt{
+    transition: 1s;
+    margin-left: 8px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.bnt:hover{
+    box-shadow: 3px 3px 5px #000000;
+    transition: 1s;
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    
+}
