@@ -1,0 +1,67 @@
+.titulo{
+    color:  #FFB522;
+}
+
+nav{
+    color: #FFB522;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+nav ul{ 
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFB522;
+    transition: 1s;
+    font-size: 20px;
+    animation:backwards;
+    position: relative;   /*Thais */
+}
+
+nav a:hover{
+    color: white;
+    background-color: rgba(228, 224, 224, 0.1);
+    transform: translateY(-4px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /*Thais*/
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    text-align: center;
+    font-family: "Montserrat ExtraBold";
+    letter-spacing: 2px;
+}
+
+.responsiva{
+    width: 100%;
+    max-width: 1000px;
+    transition: all 0.5s ease;
+}
+
+section{
+    text-align: left;
+    margin: 20px;
+}
+
+.contato{
+    background-color: #1f1e1ebe; 
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
