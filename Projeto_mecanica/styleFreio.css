@@ -6,10 +6,9 @@
 }
 
 body{
-    margin: 30px;
     color: #FDA500;
     background-color: #222222;
-    
+    margin-top: 20px;
 }
 
 h1{
@@ -135,4 +134,13 @@ h3{
     color: #000000;
     background-color: #ffffff;
     
+}
+
+footer {
+    background-color: #1f1e1ebe;
+    padding: 15px;
+    margin-top: 40px;
+    color: white;
+    font-size: 14px;
+    border-top: 1px solid #ffffff1a;
 }
