@@ -1,4 +1,4 @@
-.titulo{
+/* .titulo{
     color:  #FFB522;
 }
 
@@ -25,14 +25,14 @@ nav a{
     transition: 1s;
     font-size: 20px;
     animation:backwards;
-    position: relative;   /*Thais */
+    position: relative;   
 }
 
 nav a:hover{
     color: white;
     background-color: rgba(228, 224, 224, 0.1);
     transform: translateY(-4px);
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /*Thais*/
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); 
 }
 
 body{
@@ -64,4 +64,454 @@ section{
     font-size: 16px;
     transition: all 0.3s ease;
     text-align: center;
+} */
+
+/* CSS Padrão Início: */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
 }
+
+body{
+    color: #FDA500;
+    background-color: #222222;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin: 15px;
+}
+
+.texto1{
+    font-size: 20px;
+}
+
+a{
+    transition: 1s;
+    font-size: 20px;
+    color: #FDA500;
+    align-items: center;
+    margin: 0px 60px 0px 60px;
+    text-decoration: none;
+}
+
+a:hover{
+    box-shadow: 3px 3px 5px #000000;
+    color: #ffffff;
+    font-size: 30px;
+    transition: 1.9s;
+}
+
+.titoloCard{
+    color: white;
+    font-size: 25px;
+}
+
+.card1 ul li{
+    margin-bottom: 1px;
+    font-size: 20px;
+    list-style: none;
+}
+
+li, samp{
+    font-size: 25px;
+}
+
+.card2 ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.cards{
+   padding: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card1{
+    transition: 1s;
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #FDA500;
+}
+
+.card1:hover{
+    box-shadow: 3px 3px 5px #000000;
+    transition: 1s;
+    background-color: #000000;
+}
+
+.textoCard1{
+    color: white;
+    margin: 6px 50px 0px 0px;
+    
+}
+
+.card2{
+    transition: 1s;
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #FDA500;
+}
+
+.card2:hover{
+    box-shadow: 3px 3px 5px #000000;
+    transition: 1.5s;
+    background-color: #000000;
+}
+
+.textoCard2{
+    color: white;
+    margin: 60px 50px 0px 0px; 
+}
+
+h3{
+    font-size: 30px;
+}
+
+.contato{
+    margin: 0% 30% 0% 37%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.bnt{
+    transition: 1s;
+    margin-left: 8px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.bnt:hover{
+    box-shadow: 3px 3px 5px #000000;
+    transition: 1s;
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    
+}
+
+footer {
+    background-color: #1f1e1ebe;
+    padding: 15px;
+    margin-top: 40px;
+    color: white;
+    font-size: 14px;
+    border-top: 1px solid #ffffff1a;
+}
+/* CSS Padrão Fim: */
+
+.contatoHome{                        /* Footer contato página Home */
+    background-color: #1f1e1ebe; 
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-align: center;
+} 
+
+
+/* Inicio do css da pagina Produtos */
+/* área que segura os produtos */
+.listaProdutos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  justify-items: center;
+}
+
+/* cada caixinha de produto */
+.caixaProduto {
+  background-color: #2c2c2c;
+  border: 2px solid #ffa500;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+  width: 230px;
+  transition: all 0.3s ease;
+}
+
+.caixaProduto:hover {
+  background-color: #ffa500;
+  color: #1e1e1e;
+  transform: translateY(-8px);
+  box-shadow: 0px 6px 15px rgba(255, 165, 0, 0.4);
+}
+
+/* imagens dos produtos (sem filtro de cor) */
+.caixaProduto img {
+  width: 90px;
+  height: auto;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.caixaProduto:hover img {
+  transform: scale(1.1);
+}
+
+/* título dentro das caixinhas */
+.caixaProduto h2 {
+  font-size: 1.3em;
+  margin-bottom: 8px;
+}
+
+/* descrição */
+.caixaProduto p {
+  font-size: 0.9em;
+  opacity: 0.85;
+  margin: 0;
+}
+
+/* links sem sublinhado */
+.caixaProduto a {
+  color: inherit;
+  text-decoration: none;
+}
+/* Fim do css dos produtos */
+
+/* começo css cada produto  */
+.tituloPrincipal {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.barraNavegacao {
+  margin-bottom: 25px;
+}
+
+.linkNav {
+  color: #fca311;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 1.1rem;
+}
+
+.linkNav:hover {
+  text-decoration: underline;
+}
+
+.imagemPrincipal img {
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 25px;
+  filter: none; 
+}
+
+.subTitulo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+
+.textoContato {
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 25px auto;
+  line-height: 1.5;
+  color: #fca311cc;
+}
+
+.listaSimples {
+  list-style-type: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto 35px auto;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #fca311ee;
+}
+
+.listaSimples li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.listaSimples li::before {
+  content: "•";
+  color: #fca311dd;
+  position: absolute;
+  left: 0;
+  font-size: 1.3rem;
+  top: 0;
+  line-height: 1;
+}
+
+.botaoZap {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #fca311;
+  color: #1e1e1e;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.botaoZap:hover {
+  background-color: #d18e0c;
+}
+
+.rodape {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #fca311bb;
+  margin-bottom: 20px;
+}
+
+
+.menu {
+  margin-top: 10px;
+}
+
+.menu a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #ffb300;
+}
+
+/* === CONTEÚDO === */
+.conteudo {
+  padding: 40px 15%;
+  text-align: center;
+}
+
+.imagem-servico {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.titulo-principal {
+  color: #ffb300;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.texto-introducao {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+/*INFORMAÇÃO */
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.caixa {
+  background-color: #1a1a1a;
+  border: 1px solid #ffb300;
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 0 15px rgba(255, 179, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.caixa:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 179, 0, 0.4);
+}
+
+.caixa h2 {
+  color: #ffb300;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.caixa ul {
+  list-style: none;
+  text-align: left;
+}
+
+.caixa li {
+  margin-bottom: 8px;
+  color: #eaeaea;
+}
+
+/* CONTATO */
+.contato {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 25px;
+  background-color: #ffb300;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s, transform 0.3s;
+}
+
+.botao:hover {
+  background-color: #ffc233;
+  transform: scale(1.05);
+}
+
+.rodape {
+  background-color: #111;
+  color: #888;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  .conteudo {
+    padding: 30px 5%;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .caixa {
+    width: 90%;
+  }
+}
+/* fim css cada produto  */
