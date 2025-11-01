@@ -1,156 +1,87 @@
-/* .titulo{
-    color:  #FFB522;
-}
-
-nav{
-    color: #FFB522;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    margin-bottom: 10px;
-}
-
-nav ul{ 
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav a{
-    text-decoration: none;
-    color: #FFB522;
-    transition: 1s;
-    font-size: 20px;
-    animation:backwards;
-    position: relative;   
-}
-
-nav a:hover{
-    color: white;
-    background-color: rgba(228, 224, 224, 0.1);
-    transform: translateY(-4px);
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); 
-}
-
-body{
-    background-color: rgba(0, 0, 0, 0.836);
-    color: white;
-    text-align: center;
-    font-family: "Montserrat ExtraBold";
-    letter-spacing: 2px;
-}
-
-.responsiva{
-    width: 100%;
-    max-width: 1000px;
-    transition: all 0.5s ease;
-}
-
-section{
-    text-align: left;
-    margin: 20px;
-}
-
-.contato{
-    background-color: #1f1e1ebe; 
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    text-align: center;
-} */
-
 /* CSS Padrão Início: */
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define a fonte padrão de todo o site */
+    text-align: center; /* Centraliza todos os textos */
+    font-size: large; /* Define o tamanho padrão das letras */
 }
 
 body{
-    color: #FDA500;
-    background-color: #222222;
-    margin-top: 20px;
+    color: #FDA500; /* Cor do texto principal (laranja) */
+    background-color: #222222; /* Fundo escuro do site */
+    margin-top: 20px; /* Espaço no topo da página */
 }
 
 h1{
-    font-size: 30px;
-    margin: 15px;
+    font-size: 30px; /* Tamanho dos títulos principais */
+    margin: 15px; /* Espaçamento ao redor */
 }
 
 .texto1{
-    font-size: 20px;
+    font-size: 20px; /* Classe para textos um pouco maiores */
 }
 
 a{
-    transition: 1s;
-    font-size: 20px;
-    color: #FDA500;
-    align-items: center;
-    margin: 0px 60px 0px 60px;
-    text-decoration: none;
+    transition: 1s; /* Animação suave ao mudar propriedades */
+    font-size: 20px; /* Tamanho da fonte dos links */
+    color: #FDA500; /* Cor dos links */
+    align-items: center; /* Centraliza verticalmente (não tem muito efeito aqui) */
+    margin: 0px 60px 0px 60px; /* Espaçamento lateral dos links */
+    text-decoration: none; /* Remove o sublinhado */
 }
 
 a:hover{
-    box-shadow: 3px 3px 5px #000000;
-    color: #ffffff;
-    font-size: 30px;
-    transition: 1.9s;
+    box-shadow: 3px 3px 5px #000000; /* Sombra ao passar o mouse */
+    color: #ffffff; /* Cor branca no hover */
+    font-size: 30px; /* Aumenta o tamanho */
+    transition: 1.9s; /* Transição mais lenta */
 }
 
 .titoloCard{
-    color: white;
-    font-size: 25px;
+    color: white; /* Cor do título dentro dos cards */
+    font-size: 25px; /* Tamanho da fonte */
 }
 
 .card1 ul li{
-    margin-bottom: 1px;
-    font-size: 20px;
-    list-style: none;
+    margin-bottom: 1px; /* Espaçamento entre itens */
+    font-size: 20px; /* Tamanho da fonte */
+    list-style: none; /* Remove os marcadores da lista */
 }
 
 li, samp{
-    font-size: 25px;
+    font-size: 25px; /* Define o tamanho padrão de li e samp */
 }
 
 .card2 ul li{
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Mais espaço entre os itens */
     font-size: 20px;
     list-style: none;
 }
 
 .cards{
-   padding: 2px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   padding: 2px; /* Pequeno espaçamento interno */
+   display: flex; /* Ativa o flexbox */
+   justify-content: center; /* Centraliza horizontalmente */
+   align-items: center; /* Centraliza verticalmente */
 }
 
 .card1{
-    transition: 1s;
-    width: 450px;
-    height: 350px;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: #FDA500;
+    transition: 1s; /* Animação suave */
+    width: 450px; /* Largura fixa */
+    height: 350px; /* Altura fixa */
+    margin: 20px; /* Espaço entre os cards */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #FDA500; /* Fundo laranja */
 }
 
 .card1:hover{
-    box-shadow: 3px 3px 5px #000000;
+    box-shadow: 3px 3px 5px #000000; /* Sombra ao passar o mouse */
     transition: 1s;
-    background-color: #000000;
+    background-color: #000000; /* Fundo fica preto */
 }
 
 .textoCard1{
-    color: white;
-    margin: 6px 50px 0px 0px;
-    
+    color: white; /* Cor do texto dentro do card */
+    margin: 6px 50px 0px 0px; /* Ajuste de posição */
 }
 
 .card2{
@@ -174,25 +105,25 @@ li, samp{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 30px; /* Tamanho dos subtítulos */
 }
 
 .contato{
-    margin: 0% 30% 0% 37%;
+    margin: 0% 30% 0% 37%; /* Centraliza horizontalmente */
     align-items: center;
     text-align: center;
-    display: flex;
+    display: flex; /* Exibe em linha */
 }
 
 .bnt{
     transition: 1s;
     margin-left: 8px;
-    border-radius: 10px;
-    border: none;
+    border-radius: 10px; /* Bordas arredondadas */
+    border: none; /* Remove a borda padrão */
     text-align: center;
-    color: #ffffff;
-    background-color: #000000;
-    cursor: pointer;
+    color: #ffffff; /* Texto branco */
+    background-color: #000000; /* Fundo preto */
+    cursor: pointer; /* Muda o cursor para “mãozinha” */
 }
 
 .bnt:hover{
@@ -200,21 +131,22 @@ h3{
     transition: 1s;
     font-size: 20px;
     color: #000000;
-    background-color: #ffffff;
-    
+    background-color: #ffffff; /* Inverte as cores no hover */
 }
 
 footer {
-    background-color: #1f1e1ebe;
+    background-color: #1f1e1ebe; /* Fundo do rodapé */
     padding: 15px;
     margin-top: 40px;
     color: white;
     font-size: 14px;
-    border-top: 1px solid #ffffff1a;
+    border-top: 1px solid #ffffff1a; /* Linha sutil acima */
 }
-/* CSS Padrão Fim: */
+/* CSS Padrão Fim */
 
-.contatoHome{                        /* Footer contato página Home */
+/* Footer contato página Home */
+
+.contatoHome{
     background-color: #1f1e1ebe; 
     color: white;
     border: none;
@@ -226,21 +158,20 @@ footer {
     text-align: center;
 } 
 
+/* Página de Produtos */
 
-/* Inicio do css da pagina Produtos */
-/* área que segura os produtos */
+
 .listaProdutos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 30px;
+  display: grid; /* Layout em grade */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Colunas automáticas e adaptáveis */
+  gap: 30px; /* Espaçamento entre os produtos */
   padding: 40px;
-  justify-items: center;
+  justify-items: center; /* Centraliza os itens na célula */
 }
 
-/* cada caixinha de produto */
 .caixaProduto {
-  background-color: #2c2c2c;
-  border: 2px solid #ffa500;
+  background-color: #2c2c2c; /* Fundo escuro das caixas */
+  border: 2px solid #ffa500; /* Borda laranja */
   border-radius: 12px;
   text-align: center;
   padding: 20px;
@@ -249,248 +180,40 @@ footer {
 }
 
 .caixaProduto:hover {
-  background-color: #ffa500;
-  color: #1e1e1e;
-  transform: translateY(-8px);
-  box-shadow: 0px 6px 15px rgba(255, 165, 0, 0.4);
+  background-color: #ffa500; /* Muda o fundo para laranja */
+  color: #1e1e1e; /* Texto escuro */
+  transform: translateY(-8px); /* Sobe levemente a caixa */
+  box-shadow: 0px 6px 15px rgba(255, 165, 0, 0.4); /* Sombra */
 }
 
-/* imagens dos produtos (sem filtro de cor) */
 .caixaProduto img {
   width: 90px;
   height: auto;
   margin-bottom: 10px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease; /* Suaviza o zoom */
 }
 
 .caixaProduto:hover img {
-  transform: scale(1.1);
+  transform: scale(1.1); /* Aumenta a imagem no hover */
 }
 
-/* título dentro das caixinhas */
 .caixaProduto h2 {
   font-size: 1.3em;
   margin-bottom: 8px;
 }
 
-/* descrição */
 .caixaProduto p {
   font-size: 0.9em;
-  opacity: 0.85;
+  opacity: 0.85; /* Leve transparência */
   margin: 0;
 }
 
-/* links sem sublinhado */
 .caixaProduto a {
-  color: inherit;
-  text-decoration: none;
-}
-/* Fim do css dos produtos */
-
-/* começo css cada produto  */
-.tituloPrincipal {
-  font-weight: 700;
-  font-size: 2rem;
-  margin-top: 30px;
-  margin-bottom: 5px;
+  color: inherit; /* Usa a cor do texto atual */
+  text-decoration: none; /* Remove sublinhado */
 }
 
-.barraNavegacao {
-  margin-bottom: 25px;
-}
-
-.linkNav {
-  color: #fca311;
-  font-weight: 600;
-  text-decoration: none;
-  margin: 0 12px;
-  font-size: 1.1rem;
-}
-
-.linkNav:hover {
-  text-decoration: underline;
-}
-
-.imagemPrincipal img {
-  max-width: 160px;
-  height: auto;
-  margin-bottom: 25px;
-  filter: none; 
-}
-
-.subTitulo {
-  font-weight: 700;
-  font-size: 1.5rem;
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-
-
-.textoContato {
-  font-weight: 400;
-  font-size: 1rem;
-  max-width: 700px;
-  margin: 0 auto 25px auto;
-  line-height: 1.5;
-  color: #fca311cc;
-}
-
-.listaSimples {
-  list-style-type: none;
-  padding: 0;
-  max-width: 700px;
-  margin: 0 auto 35px auto;
-  font-weight: 600;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #fca311ee;
-}
-
-.listaSimples li {
-  margin-bottom: 10px;
-  position: relative;
-  padding-left: 20px;
-}
-
-.listaSimples li::before {
-  content: "•";
-  color: #fca311dd;
-  position: absolute;
-  left: 0;
-  font-size: 1.3rem;
-  top: 0;
-  line-height: 1;
-}
-
-.botaoZap {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #fca311;
-  color: #1e1e1e;
-  font-weight: 700;
-  font-size: 1.1rem;
-  text-decoration: none;
-  border-radius: 8px;
-  margin-bottom: 50px;
-  transition: background-color 0.3s ease;
-}
-
-.botaoZap:hover {
-  background-color: #d18e0c;
-}
-
-.rodape {
-  font-weight: 500;
-  font-size: 0.9rem;
-  color: #fca311bb;
-  margin-bottom: 20px;
-}
-
-
-.menu {
-  margin-top: 10px;
-}
-
-.menu a {
-  color: #f0f0f0;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: 500;
-  transition: 0.3s;
-}
-
-.menu a:hover {
-  color: #ffb300;
-}
-
-/* === CONTEÚDO === */
-.conteudo {
-  padding: 40px 15%;
-  text-align: center;
-}
-
-.imagem-servico {
-  width: 120px;
-  margin-bottom: 15px;
-}
-
-.titulo-principal {
-  color: #ffb300;
-  font-size: 1.6rem;
-  margin-bottom: 10px;
-}
-
-.texto-introducao {
-  max-width: 700px;
-  margin: 0 auto 40px;
-  color: #ccc;
-  font-size: 1rem;
-}
-
-/*INFORMAÇÃO */
-.info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-
-.caixa {
-  background-color: #1a1a1a;
-  border: 1px solid #ffb300;
-  border-radius: 12px;
-  padding: 20px;
-  width: 320px;
-  box-shadow: 0 0 15px rgba(255, 179, 0, 0.2);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.caixa:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(255, 179, 0, 0.4);
-}
-
-.caixa h2 {
-  color: #ffb300;
-  margin-bottom: 15px;
-  font-size: 1.2rem;
-}
-
-.caixa ul {
-  list-style: none;
-  text-align: left;
-}
-
-.caixa li {
-  margin-bottom: 8px;
-  color: #eaeaea;
-}
-
-/* CONTATO */
-.contato {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.botao {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 12px 25px;
-  background-color: #ffb300;
-  color: #000;
-  font-weight: bold;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: 0.3s, transform 0.3s;
-}
-
-.botao:hover {
-  background-color: #ffc233;
-  transform: scale(1.05);
-}
-
-.rodape {
+.rodape {   /* FOOTER*/
   background-color: #111;
   color: #888;
   text-align: center;
@@ -499,19 +222,4 @@ footer {
   border-top: 1px solid #333;
 }
 
-/* RESPONSIVIDADE */
-@media (max-width: 768px) {
-  .conteudo {
-    padding: 30px 5%;
-  }
-
-  .info {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .caixa {
-    width: 90%;
-  }
-}
 /* fim css cada produto  */
