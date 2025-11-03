@@ -53,25 +53,6 @@ h3{
     display: flex; /* Exibe em linha */
 }
 
-.bnt{
-    transition: 1s;
-    margin-left: 8px;
-    border-radius: 10px; /* Bordas arredondadas */
-    border: none; /* Remove a borda padrão */
-    text-align: center;
-    color: #ffffff; /* Texto branco */
-    background-color: #000000; /* Fundo preto */
-    cursor: pointer; /* Muda o cursor para “mãozinha” */
-}
-
-.bnt:hover{
-    box-shadow: 3px 3px 5px #000000;
-    transition: 1s;
-    font-size: 20px;
-    color: #000000;
-    background-color: #ffffff; /* Inverte as cores no hover */
-}
-
 footer {
     background-color: #1f1e1ebe; /* Fundo do rodapé */
     padding: 15px;
