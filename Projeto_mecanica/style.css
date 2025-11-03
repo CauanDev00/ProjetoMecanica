@@ -300,3 +300,119 @@ footer {
   color: inherit; /* Usa a mesma c*/
 }
 
+/* RAI
+  Arquivo: login.css
+  Estilo simples e legível para página de login.
+  Escrito de forma que um aluno iniciante entenda.
+*/
+
+/* Reset básico */
+/* * {                                              DUVIDA SE DEIXAR OU NÃO 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+} */
+
+/* Corpo da página */
+.bodyCadastro {
+  background: #0b0b0b; /* fundo escuro */
+  color: #fff; /* texto branco */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px 16px;
+}
+
+/* Título */
+.h2Cadastro {
+  color: #FFB522;
+  margin-bottom: 18px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+/* Cartão do formulário */
+.card {
+  width: 100%;
+  max-width: 380px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+}
+
+/* Labels */
+.labelCadastro {
+  display: block;
+  color: #FFD88A;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Campos de entrada */
+.inputCadastro[type="email"],
+.inputCadastro[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: #121212;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.inputCadastro::placeholder {
+  color: #bdbdbd;
+}
+
+.inputCadastro:focus {
+  border-color: #FFB522;
+  box-shadow: 0 6px 18px rgba(255, 181, 34, 0.06);
+}
+
+/* Botão */
+button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #FFB522;
+  color: #000;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  filter: brightness(0.98);
+}
+
+/* Rodapé fixo no final da página */
+.rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: #FFB522;
+  padding: 15px 0;
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 420px) {
+  .card {
+    padding: 18px;
+  }
+}
